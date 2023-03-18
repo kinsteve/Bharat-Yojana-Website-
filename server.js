@@ -7,7 +7,7 @@ app.use(express.json());
 
 // Set the view engine
 app.set('view engine', 'ejs');
-app.set('views', __dirname + '/views');
+app.set('views', __dirname + '/views');   //for deployment
 // Serve static files from the public directory
 app.use(express.static('public'));
 
@@ -24,9 +24,5 @@ app.get("/login" , (req,res)=>{
 app.get("/signup" ,(req,res)=>{
     res.render("signup.ejs");
 });
-
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'views', 'index.ejs'));
-  });
 
 app.listen(PORT, console.log(`Server running on port ${PORT}`.yellow.bold));
