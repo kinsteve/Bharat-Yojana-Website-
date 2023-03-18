@@ -14,15 +14,15 @@ app.use(express.static('public'));
 const PORT = process.env.PORT || 3000;
 
 app.get("/",(req,res)=>{
-    res.render("index");
+    res.render("index.ejs");
 })
 
 app.get("/login" , (req,res)=>{
-    res.render("login");
+    res.render("login.ejs");
 });
 
 app.get("/signup" ,(req,res)=>{
-    res.render("signup");
+    res.render("signup.ejs");
 });
 
 
