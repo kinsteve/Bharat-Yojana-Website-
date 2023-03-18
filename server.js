@@ -25,5 +25,8 @@ app.get("/signup" ,(req,res)=>{
     res.render("signup.ejs");
 });
 
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'views', 'index.ejs'));
+  });
 
 app.listen(PORT, console.log(`Server running on port ${PORT}`.yellow.bold));
