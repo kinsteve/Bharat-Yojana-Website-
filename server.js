@@ -9,7 +9,7 @@ app.use(express.json());
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');   //for deployment
 // Serve static files from the public directory
-app.use(express.static('public'));
+app.use(express.static(__dirname+"/public/"));
 
 const PORT = process.env.PORT || 3000;
 
