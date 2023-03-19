@@ -38,6 +38,10 @@ footer, header, hgroup, menu, nav, section {
 	z-index: -1;
 }
 
+.category-logo{
+	fill: white;
+}
+
 .button-container {
 	display: flex;
 	flex-direction: row;
@@ -2595,7 +2599,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		position: relative;
 		margin: -2.5em 0 0 -2.5em;
 	}
 
@@ -2729,7 +2733,7 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+				background-color: #990099;
 			}
 
 			.tiles article.style2 > .image:before {
