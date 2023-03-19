@@ -58,7 +58,6 @@ app.post("/signup", (req,res)=>{
 
       .then(() => {
         res.status(200).send("User Registered");
-        console.log(userData);
       })
       .catch((error) => {
         console.error(error);
