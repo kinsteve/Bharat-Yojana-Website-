@@ -66,7 +66,7 @@ app.post("/signup", (req,res)=>{
     });
     
 app.get("/education" ,(req,res)=>{
-    res.render("EDUCATION.ejs");
+    res.render("education.ejs");
 });
 app.get("/electricity" ,(req,res)=>{
     res.render("electricity.ejs");
