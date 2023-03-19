@@ -16,6 +16,7 @@ app.use(express.static(__dirname+"/public/"));    // add this to make sure publi
 const PORT = process.env.PORT || 3000;
 
 app.get("/",(req,res)=>{
+    // alert("Hello Its popup");
     res.render("index.ejs");
 })
 app.post("/" , (req,res)=>{
@@ -52,13 +53,16 @@ app.post("/signup", (req,res)=>{
           state,
           income: parseInt(income)
         };
-        console.log(userData);
+        // console.log(userData);
         return admin.database().ref(`users/${userRecord.uid}`).set(userData);
       })
 
       .then(() => {
-        res.status(200).send("User Registered");
+        console.log("User Registered");
+        console.log(userData);
+        res.status(200).render("/")
       })
+
       .catch((error) => {
         console.error(error);
         res.status(500).send('An error occurred');
