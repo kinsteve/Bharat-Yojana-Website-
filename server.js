@@ -6,6 +6,21 @@ const admin = require('firebase-admin');
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
 // app.use(express.json());
+const arr = require("./views/data.json");
+const education = arr.filter(ele => ele.category==='education');
+const health = arr.filter(ele => ele.category==='health');
+const electricity = arr.filter(ele => ele.category==='electricity');
+const water = arr.filter(ele => ele.category==='water');
+const money = arr.filter(ele => ele.category==='money');
+const jobs = arr.filter(ele => ele.category==='jobs');
+const justice = arr.filter(ele => ele.category==='justice');
+const entrepreneurship = arr.filter(ele => ele.category==='entrepreneurship');
+const pension = arr.filter(ele => ele.category==='pension');
+const agriculture = arr.filter(ele => ele.category==='agriculture');
+const rural = arr.filter(ele => ele.category==='rural');
+const law = arr.filter(ele => ele.category==='law');
+// const education = arr.filter(ele => ele.category==='education');
+
 
 // Set the view engine
 app.set('view engine', 'ejs');
@@ -16,10 +31,13 @@ app.use(express.static(__dirname+"/public/"));    // add this to make sure publi
 const PORT = process.env.PORT || 3000;
 
 app.get("/",(req,res)=>{
+    console.log(agriculture);   
     res.render("index.ejs");
+    
 })
 app.post("/" , (req,res)=>{
    res.render("index.ejs");
+
 });
 
 app.get("/login" , (req,res)=>{
@@ -29,6 +47,7 @@ app.get("/login" , (req,res)=>{
 app.get("/signup" ,(req,res)=>{
     res.render("signup.ejs");
 });
+
 
 app.post("/signup", (req,res)=>{
     console.log(req);
@@ -65,9 +84,9 @@ app.post("/signup", (req,res)=>{
       });
     });
     
-app.get("/education" ,(req,res)=>{
-    res.render("education.ejs");
-});
+// app.get("/education" ,(req,res)=>{
+//     res.render("education.ejs");
+// });
 app.get("/electricity" ,(req,res)=>{
     res.render("electricity.ejs");
 });
@@ -100,6 +119,9 @@ app.get("/agriculture" ,(req,res)=>{
 });
 app.get("/rural" ,(req,res)=>{
     res.render("generic.ejs");
+});
+app.get("/education", (req, res) => {
+    res.render("education.ejs", { education: education });
 });
 
 const serviceAccount = require('./hackathon-c3b03-firebase-adminsdk-vxv9h-c3285e1205.json');
