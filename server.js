@@ -18,6 +18,21 @@ admin.initializeApp({
 });
 const auth = firebase.auth();
 // app.use(express.json());
+const arr = require("./views/data.json");
+const education = arr.filter(ele => ele.category==='education');
+const health = arr.filter(ele => ele.category==='health');
+const electricity = arr.filter(ele => ele.category==='electricity');
+const water = arr.filter(ele => ele.category==='water');
+const money = arr.filter(ele => ele.category==='money');
+const jobs = arr.filter(ele => ele.category==='jobs');
+const justice = arr.filter(ele => ele.category==='justice');
+const entrepreneurship = arr.filter(ele => ele.category==='entrepreneurship');
+const pension = arr.filter(ele => ele.category==='pension');
+const agriculture = arr.filter(ele => ele.category==='agriculture');
+const rural = arr.filter(ele => ele.category==='rural');
+const law = arr.filter(ele => ele.category==='law');
+// const education = arr.filter(ele => ele.category==='education');
+
 
 // Set the view engine
 app.set('view engine', 'ejs');
@@ -26,6 +41,16 @@ app.set('views', __dirname + '/views');   //for deployment
 app.use(express.static(__dirname + "/public/"));    // add this to make sure public folder is read on deployment
 
 const PORT = process.env.PORT || 3000;
+
+
+app.get("/",(req,res)=>{
+    console.log(agriculture);   
+    res.render("index.ejs");
+    
+})
+app.post("/" , (req,res)=>{
+   res.render("index.ejs");
+
 
 app.get("/", (req, res) => {
     // alert("Hello Its popup");
@@ -45,6 +70,7 @@ app.get("/", (req, res) => {
 })
 app.post("/", (req, res) => {
     res.render("index.ejs");
+
 });
 
 app.get("/login", (req, res) => {
@@ -55,8 +81,15 @@ app.get("/signup", (req, res) => {
     res.render("signup.ejs");
 });
 
+
+
+app.post("/signup", (req,res)=>{
+    console.log(req);
+    const { name, password,confirmpassword, phoneno, aadharno, gender, age, state, income } = req.body;
+    console.log("HI my name is " , name);
 app.post("/signup", (req, res) => {
     const { name, password, confirmpassword, phoneno, aadharno, gender, age, state, income } = req.body;
+
     if (password !== confirmpassword) {
         return res.status(400).send('Passwords do not match');
     }
@@ -79,17 +112,20 @@ app.post("/signup", (req, res) => {
             return admin.database().ref(`users/${userRecord.uid}`).set(userData);
         })
 
-        .then(() => {
-            console.log("User Registered");
-            // console.log(userData);
-            res.redirect('/');
-        })
+<<<<<<< HEAD
+      .then(() => {
+        res.status(200).send("User Registered");
+      })
+      .catch((error) => {
+        console.error(error);
+        res.status(500).send('An error occurred');
+      });
+    });
+    
+// app.get("/education" ,(req,res)=>{
+//     res.render("education.ejs");
+// });
 
-        .catch((error) => {
-            console.error(error);
-            res.status(500).send('An error occurred');
-        });
-});
 
 app.post('/login',(req, res) => {
     const {email,password}=req.body;
@@ -111,6 +147,7 @@ app.get("/education", (req, res) => {
     res.render("education.ejs");
 });
 app.get("/electricity", (req, res) => {
+
     res.render("electricity.ejs");
 });
 app.get("/health", (req, res) => {
@@ -142,6 +179,9 @@ app.get("/agriculture", (req, res) => {
 });
 app.get("/rural", (req, res) => {
     res.render("generic.ejs");
+});
+app.get("/education", (req, res) => {
+    res.render("education.ejs", { education: education });
 });
 
 app.listen(PORT, console.log(`Server running on port ${PORT}`.yellow.bold));
