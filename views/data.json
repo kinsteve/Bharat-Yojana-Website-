@@ -9,8 +9,8 @@
     "income": "No income criteria"
     },
     "benefits": "Financial incentives for the girl child's education, awareness campaigns to promote gender equality and education of the girl child, and support for the prevention of female foeticide and infanticide",
-    "application-procedure": "Online or offline application, depending on the specific component of the scheme",
-    "documents-required": "Proof of identity and residence, birth certificate of the girl child, and income certificate if applicable"
+    "application_procedure": "Online or offline application, depending on the specific component of the scheme",
+    "documents_required": "Proof of identity and residence, birth certificate of the girl child, and income certificate if applicable"
 },
 {
     "title": "National Means-cum-Merit Scholarship",
@@ -22,8 +22,8 @@
     "income": "Family income should not exceed Rs. 1.50 lakh per annum"
     },
     "benefits": "Scholarship amount of Rs. 12,000 per annum, covering all expenses related to secondary education",
-    "application-procedure": "Online application through the National Scholarship Portal",
-    "documents-required": "Proof of identity and residence, income certificate, and previous year's marks sheet"
+    "application_procedure": "Online application through the National Scholarship Portal",
+    "documents_required": "Proof of identity and residence, income certificate, and previous year's marks sheet"
 },
 {
     "title": "Pradhan Mantri Vidya Lakshmi Yojana",
@@ -35,8 +35,8 @@
     "income": "No income criteria"
     },
     "benefits": "Easy access to education loans from various banks, reduced paperwork and hassle for students, and online tracking of loan applications",
-    "application-procedure": "Online application through the Vidya Lakshmi portal, followed by submission of documents and verification by the bank",
-    "documents-required": "Proof of identity and residence, admission letter from the educational institution, income certificate, and other documents as required by the bank"
+    "application_procedure": "Online application through the Vidya Lakshmi portal, followed by submission of documents and verification by the bank",
+    "documents_required": "Proof of identity and residence, admission letter from the educational institution, income certificate, and other documents as required by the bank"
 },
 {
     "title": "Sarva Shiksha Abhiyan",
@@ -48,8 +48,8 @@
     "income": "No income criteria"
     },
     "benefits": "Free education, inclusive education for children with special needs, provision for mid-day meals, and support for teacher training and development",
-    "application-procedure": "Automatic enrolment for children in the target age group, and registration through Common Service Centres (CSCs) for out-of-school children",
-    "documents-required": "Birth certificate or age proof document, and identification documents such as Aadhaar card or voter ID card"
+    "application_procedure": "Automatic enrolment for children in the target age group, and registration through Common Service Centres (CSCs) for out-of-school children",
+    "documents_required": "Birth certificate or age proof document, and identification documents such as Aadhaar card or voter ID card"
 },
 {
     "title": "National Means-cum-Merit Scholarship Scheme",
@@ -61,8 +61,8 @@
     "income": "Family income should not exceed Rs. 1.5 lakh per annum"
     },
     "benefits": "Scholarship of Rs. 12,000 per annum for meritorious students from economically weaker sections to continue their secondary and higher secondary education",
-    "application-procedure": "Selection through a written examination conducted by the State education Board, and submission of application through the concerned State/UT education department",
-    "documents-required": "Income certificate, caste certificate, and identification documents such as Aadhaar card or voter ID card"
+    "application_procedure": "Selection through a written examination conducted by the State education Board, and submission of application through the concerned State/UT education department",
+    "documents_required": "Income certificate, caste certificate, and identification documents such as Aadhaar card or voter ID card"
 },
 {
     "title": "Rashtriya Madhyamik Shiksha Abhiyan",
@@ -74,8 +74,8 @@
     "income": "No income criteria"
     },
     "benefits": "Provision for infrastructure development in schools, teacher training and development, vocational education, and support for inclusive education",
-    "application-procedure": "Automatic enrolment for students in the target age group, and registration through Common Service Centres (CSCs) for out-of-school children",
-    "documents-required": "Birth certificate or age proof document, and identification documents such as Aadhaar card or voter ID card"
+    "application_procedure": "Automatic enrolment for students in the target age group, and registration through Common Service Centres (CSCs) for out-of-school children",
+    "documents_required": "Birth certificate or age proof document, and identification documents such as Aadhaar card or voter ID card"
 },
 {
     "title": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana",
@@ -87,8 +87,8 @@
     "income": "Family income should not exceed Rs. 5 lakh per annum"
     },
     "benefits": "Coverage of up to Rs. 5 lakh per family per annum for secondary and tertiary healthcare services, cashless and paperless access to healthcare services at empanelled hospitals, and provision for pre and post hospitalization expenses",
-    "application-procedure": "Automatic enrolment for families identified under the Socio-Economic Caste Census (SECC) database or registration through Common Service Centres (CSCs) or Ayushman Bharat - Health and Wellness Centres (AB-HWCs)",
-    "documents-required": "Identification documents such as Aadhaar card and ration card, and other documents as required for verification of eligibility"
+    "application_procedure": "Automatic enrolment for families identified under the Socio-Economic Caste Census (SECC) database or registration through Common Service Centres (CSCs) or Ayushman Bharat - Health and Wellness Centres (AB-HWCs)",
+    "documents_required": "Identification documents such as Aadhaar card and ration card, and other documents as required for verification of eligibility"
     },
 
     {
@@ -101,8 +101,8 @@
     "income": "Family income should not exceed Rs. 5 lakh per annum"
     },
     "benefits": "Coverage of up to Rs. 5 lakh per family per annum for secondary and tertiary healthcare services, cashless and paperless access to healthcare services at empanelled hospitals, and provision for pre and post hospitalization expenses",
-    "application-procedure": "Automatic enrolment for families identified under the Socio-Economic Caste Census (SECC) database or registration through Common Service Centres (CSCs) or Ayushman Bharat - Health and Wellness Centres (AB-HWCs)",
-    "documents-required": "Identification documents such as Aadhaar card and ration card, and other documents as required for verification of eligibility"
+    "application_procedure": "Automatic enrolment for families identified under the Socio-Economic Caste Census (SECC) database or registration through Common Service Centres (CSCs) or Ayushman Bharat - Health and Wellness Centres (AB-HWCs)",
+    "documents_required": "Identification documents such as Aadhaar card and ration card, and other documents as required for verification of eligibility"
     },
     
     {
@@ -115,8 +115,8 @@
     "income": "No income criteria"
     },
     "benefits": "Clean and hygienic surroundings, improved health and reduced risk of water-borne diseases, and creation of employment opportunities in the sanitation sector",
-    "application-procedure": "Participation in the cleanliness drives organised by the government, and adoption of sanitation practices at an individual level",
-    "documents-required": "None"
+    "application_procedure": "Participation in the cleanliness drives organised by the government, and adoption of sanitation practices at an individual level",
+    "documents_required": "None"
     },
     {
     "title": "National Rural Health Mission",
@@ -128,8 +128,8 @@
     "income": "No income criteria"
     },
     "benefits": "Improved healthcare services in rural areas, provision for community participation and empowerment, and promotion of preventive and promotive healthcare practices",
-    "application-procedure": "Automatic enrolment for families identified under the Socio-Economic Caste Census (SECC) database or registration through Common Service Centres (CSCs) or Ayushman Bharat - Health and Wellness Centres (AB-HWCs)",
-    "documents-required": "Identification documents such as Aadhaar card and ration card, and other documents as required for verification of eligibility"
+    "application_procedure": "Automatic enrolment for families identified under the Socio-Economic Caste Census (SECC) database or registration through Common Service Centres (CSCs) or Ayushman Bharat - Health and Wellness Centres (AB-HWCs)",
+    "documents_required": "Identification documents such as Aadhaar card and ration card, and other documents as required for verification of eligibility"
     },
     {
     "title": "National Mental Health Programme",
@@ -141,8 +141,8 @@
     "income": "No income criteria"
     },
     "benefits": "Improved mental healthcare services, reduction in stigma associated with mental health issues, and promotion of mental wellness",
-    "application-procedure": "Registration and consultation at mental health clinics and hospitals, and participation in mental health awareness and education programmes",
-    "documents-required": "Identification documents such as Aadhaar card and other documents as required for verification of eligibility"
+    "application_procedure": "Registration and consultation at mental health clinics and hospitals, and participation in mental health awareness and education programmes",
+    "documents_required": "Identification documents such as Aadhaar card and other documents as required for verification of eligibility"
     },
 
     {
@@ -155,8 +155,8 @@
     "income": "Family income should not exceed Rs. 1.5 lakh per annum"
     },
     "benefits": "Cash incentive of Rs. 5,000 in three instalments for pregnant and lactating women to meet their health and nutrition needs",
-    "application-procedure": "Registration at the nearest anganwadi centre or approved health facility",
-    "documents-required": "Identification documents such as Aadhaar card, bank account details, and pregnancy certificate from a registered medical practitioner"
+    "application_procedure": "Registration at the nearest anganwadi centre or approved health facility",
+    "documents_required": "Identification documents such as Aadhaar card, bank account details, and pregnancy certificate from a registered medical practitioner"
     },
     
     {
@@ -169,8 +169,8 @@
     "income": "Households with a monthly income of up to Rs. 10,000/-"
     },
     "benefits": "Free electricity connection to all households",
-    "application-procedure": "Online or offline registration through the designated authorities",
-    "documents-required": "Proof of identity and residence"
+    "application_procedure": "Online or offline registration through the designated authorities",
+    "documents_required": "Proof of identity and residence"
     },
     
     
@@ -184,8 +184,8 @@
     "income": "Households with a monthly income of up to Rs. 10,000/-"
     },
     "benefits": "Electricity supply to all rural households, agricultural consumers, and rural industries",
-    "application-procedure": "Online or offline registration through the designated authorities",
-    "documents-required": "Proof of identity and residence"
+    "application_procedure": "Online or offline registration through the designated authorities",
+    "documents_required": "Proof of identity and residence"
     },
     {
     "title": "Ujwal DISCOM Assurance Yojana (UDAY)",
@@ -197,8 +197,8 @@
     "income": "Not applicable"
     },
     "benefits": "Financial and operational improvement of DISCOMs, leading to better electricity supply to consumers",
-    "application-procedure": "State government participation through signing of MoU with the Ministry of Power",
-    "documents-required": "Not applicable"
+    "application_procedure": "State government participation through signing of MoU with the Ministry of Power",
+    "documents_required": "Not applicable"
     },
     {
     "title": "Atal Distribution System Improvement Yojana (ADITYA)",
@@ -210,8 +210,8 @@
     "income": "Not applicable"
     },
     "benefits": "Improved power distribution system in urban areas, resulting in better electricity supply to consumers",
-    "application-procedure": "State government participation through signing of MoU with the Ministry of Power",
-    "documents-required": "Not applicable"
+    "application_procedure": "State government participation through signing of MoU with the Ministry of Power",
+    "documents_required": "Not applicable"
     },
     {
     "title": "Saubhagya Pradhan Mantri Sahaj Bijli Har Ghar Yojana (Saubhagya) Solar",
@@ -223,8 +223,8 @@
     "income": "Households with a monthly income of up to Rs. 10,000/-"
     },
     "benefits": "Free solar electricity connection to all households in remote and difficult areas",
-    "application-procedure": "Online or offline registration through the designated authorities",
-    "documents-required": "Proof of identity and residence"
+    "application_procedure": "Online or offline registration through the designated authorities",
+    "documents_required": "Proof of identity and residence"
     },
     {
     "title": "Deen Dayal Upadhyaya Solar Park Yojana (DDUSPY)",
@@ -236,8 +236,8 @@
     "income": "Not applicable"
     },
     "benefits": "Increased generation of solar power, leading to a reduction in carbon emissions and a cleaner environment",
-    "application-procedure": "State government participation through signing of MoU with the Ministry of New and Renewable Energy",
-    "documents-required": "Not applicable"
+    "application_procedure": "State government participation through signing of MoU with the Ministry of New and Renewable Energy",
+    "documents_required": "Not applicable"
     }
     
     ,
@@ -251,8 +251,8 @@
     "income": "Not applicable"
     },
     "benefits": "Improved cleanliness and hygiene, leading to better health and well-being of citizens",
-    "application-procedure": "Online or offline registration through the designated authorities",
-    "documents-required": "Not applicable"
+    "application_procedure": "Online or offline registration through the designated authorities",
+    "documents_required": "Not applicable"
     }
     ,
     {
@@ -265,8 +265,8 @@
     "income": "Not applicable"
     },
     "benefits": "Improved access to basic services in urban areas, leading to better quality of life for citizens",
-    "application-procedure": "State government participation through signing of MoU with the Ministry of Urban Development",
-    "documents-required": "Not applicable"
+    "application_procedure": "State government participation through signing of MoU with the Ministry of Urban Development",
+    "documents_required": "Not applicable"
     }
     
     ,
@@ -280,8 +280,8 @@
     "income": "Not applicable"
     },
     "benefits": "Improved access to safe drinking water in rural areas, leading to better health and well-being of citizens",
-    "application-procedure": "Online or offline registration through the designated authorities",
-    "documents-required": "Proof of identity and residence"
+    "application_procedure": "Online or offline registration through the designated authorities",
+    "documents_required": "Proof of identity and residence"
     }
     ,
     {
@@ -294,8 +294,8 @@
     "income": "Economically Weaker Sections (EWS) and Low Income Groups (LIG)"
     },
     "benefits": "Affordable housing for urban poor, leading to better quality of life for citizens",
-    "application-procedure": "Online or offline registration through the designated authorities",
-    "documents-required": "Proof of identity and residence"
+    "application_procedure": "Online or offline registration through the designated authorities",
+    "documents_required": "Proof of identity and residence"
     }
     
     ,
@@ -309,8 +309,8 @@
     "income": "Below poverty line"
     },
     "benefits": "Employment opportunities and skill development for the urban poor, leading to better livelihoods",
-    "application-procedure": "Online or offline registration through the designated authorities",
-    "documents-required": "Proof of identity and residence"
+    "application_procedure": "Online or offline registration through the designated authorities",
+    "documents_required": "Proof of identity and residence"
     }
     
     ,
@@ -324,8 +324,8 @@
     "income": "Not applicable"
     },
     "benefits": "Improved access to proper sewerage connections and treatment plants in urban areas, leading to better sanitation and hygiene",
-    "application-procedure": "State government participation through signing of MoU with the Ministry of Urban Development",
-    "documents-required": "Not applicable"
+    "application_procedure": "State government participation through signing of MoU with the Ministry of Urban Development",
+    "documents_required": "Not applicable"
     }
     ,
     {
@@ -338,8 +338,8 @@
     "income": "Not applicable"
     },
     "benefits": "Access to basic banking services like savings account, debit card, and insurance",
-    "application-procedure": "Online or offline registration through designated authorities",
-    "documents-required": "Proof of identity and residence"
+    "application_procedure": "Online or offline registration through designated authorities",
+    "documents_required": "Proof of identity and residence"
     }
     ,
     {
@@ -352,8 +352,8 @@
     "income": "Not applicable"
     },
     "benefits": "Financial assistance for starting or expanding small and micro enterprises",
-    "application-procedure": "Online or offline registration through designated authorities",
-    "documents-required": "Proof of identity, residence, and business plan"
+    "application_procedure": "Online or offline registration through designated authorities",
+    "documents_required": "Proof of identity, residence, and business plan"
     },
     {
     "title": "Goods and Services Tax (GST)",
@@ -365,8 +365,8 @@
     "income": "Not applicable"
     },
     "benefits": "Simplification of the tax structure in India, leading to better compliance and easier tax filing for businesses",
-    "application-procedure": "Online registration through designated authorities",
-    "documents-required": "Proof of identity, PAN card, and business registration"
+    "application_procedure": "Online registration through designated authorities",
+    "documents_required": "Proof of identity, PAN card, and business registration"
     }
     ,
     {
@@ -379,8 +379,8 @@
     "income": "Not applicable"
     },
     "benefits": "Regular pension income for senior citizens, leading to financial security",
-    "application-procedure": "Online or offline registration through designated authorities",
-    "documents-required": "Proof of age and identity"
+    "application_procedure": "Online or offline registration through designated authorities",
+    "documents_required": "Proof of age and identity"
     },
     {
     "title": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
@@ -392,8 +392,8 @@
     "income": "Farmers with insurable interest in the notified crop"
     },
     "benefits": "Crop insurance for farmers in case of crop loss or damage, leading to financial security",
-    "application-procedure": "Online or offline registration through designated authorities",
-    "documents-required": "Proof of land ownership and crop details"
+    "application_procedure": "Online or offline registration through designated authorities",
+    "documents_required": "Proof of land ownership and crop details"
     }
     ,
     {
@@ -406,8 +406,8 @@
     "income": "Individuals who have undisclosed income"
     },
     "benefits": "One-time amnesty for tax evaders to declare their undisclosed income and pay tax on it",
-    "application-procedure": "Online or offline registration through designated authorities",
-    "documents-required": "Declaration of undisclosed income"
+    "application_procedure": "Online or offline registration through designated authorities",
+    "documents_required": "Declaration of undisclosed income"
     },
     {
     "title": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)",
@@ -419,8 +419,8 @@
     "income": "Not applicable"
     },
     "benefits": "Skill training and certification, leading to increased employability and better job prospects",
-    "application-procedure": "Online or offline registration through designated authorities",
-    "documents-required": "Proof of identity and age"
+    "application_procedure": "Online or offline registration through designated authorities",
+    "documents_required": "Proof of identity and age"
     },
     {
     "title": "Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)",
@@ -432,8 +432,8 @@
     "income": "Not applicable"
     },
     "benefits": "Guaranteed employment of up to 100 days per year for rural households, leading to increased income and financial security",
-    "application-procedure": "Online or offline registration through designated authorities",
-    "documents-required": "Proof of identity and address"
+    "application_procedure": "Online or offline registration through designated authorities",
+    "documents_required": "Proof of identity and address"
     },
     {
     "title": "Stand-Up India Scheme",
@@ -445,8 +445,8 @@
     "income": "Not applicable"
     },
     "benefits": "Collateral-free loans for setting up greenfield enterprises, leading to increased entrepreneurship and job creation",
-    "application-procedure": "Online or offline registration through designated authorities",
-    "documents-required": "Business plan and project report"
+    "application_procedure": "Online or offline registration through designated authorities",
+    "documents_required": "Business plan and project report"
     },
     {
     "title": "Pradhan Mantri Rojgar Protsahan Yojana (PMRPY)",
@@ -458,8 +458,8 @@
     "income": "Not applicable"
     },
     "benefits": "Employer contribution to Employees' Pension Scheme (EPS) and Employees' Provident Fund (EPF) for new employees, leading to increased job creation",
-    "application-procedure": "Online registration through designated authorities",
-    "documents-required": "EPF and EPS registration details"
+    "application_procedure": "Online registration through designated authorities",
+    "documents_required": "EPF and EPS registration details"
     },
     {
     "title": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY)",
@@ -471,8 +471,8 @@
     "income": "Not applicable"
     },
     "benefits": "Skill training and placement-linked employment opportunities for rural youth, leading to increased income and financial security",
-    "application-procedure": "Online or offline registration through designated authorities",
-    "documents-required": "Proof of identity and address"
+    "application_procedure": "Online or offline registration through designated authorities",
+    "documents_required": "Proof of identity and address"
     },
     {
     "title": "Pradhan Mantri Mudra Yojana (PMMY)",
@@ -484,8 +484,8 @@
     "income": "Not applicable"
     },
     "benefits": "Collateral-free loans for starting or expanding micro and small enterprises, leading to increased entrepreneurship and job creation",
-    "application-procedure": "Online or offline registration through designated authorities",
-    "documents-required": "Business plan and project report"
+    "application_procedure": "Online or offline registration through designated authorities",
+    "documents_required": "Business plan and project report"
     },
     {
     "title": "National Legal Services Authority (NALSA) Scheme",
@@ -497,8 +497,8 @@
     "income": "Below a certain threshold"
     },
     "benefits": "Free legal aid and assistance to marginalized and underprivileged sections of society, leading to increased access to justice",
-    "application-procedure": "Online or offline application through designated authorities",
-    "documents-required": "Proof of identity and income"
+    "application_procedure": "Online or offline application through designated authorities",
+    "documents_required": "Proof of identity and income"
     },
     {
     "title": "Pradhan Mantri Jan Vikas Karyakram (PMJVK)",
@@ -510,8 +510,8 @@
     "income": "Below a certain threshold"
     },
     "benefits": "Infrastructure development and provision of basic amenities to minority communities, leading to improved living standards and access to justice",
-    "application-procedure": "Online or offline application through designated authorities",
-    "documents-required": "Proof of identity and income"
+    "application_procedure": "Online or offline application through designated authorities",
+    "documents_required": "Proof of identity and income"
     },
     {
     "title": "Beti Bachao Beti Padhao (BBBP)",
@@ -523,8 +523,8 @@
     "income": "Not applicable"
     },
     "benefits": "Awareness campaigns and financial incentives for the education and empowerment of girl children, leading to increased gender equality and access to justice",
-    "application-procedure": "Online or offline application through designated authorities",
-    "documents-required": "Proof of identity and education"
+    "application_procedure": "Online or offline application through designated authorities",
+    "documents_required": "Proof of identity and education"
     },
     {
     "title": "Swachh Bharat Abhiyan",
@@ -536,8 +536,8 @@
     "income": "Not applicable"
     },
     "benefits": "Awareness campaigns, construction of toilets, waste management systems, and other initiatives to promote cleanliness and hygiene, leading to improved health and sanitation",
-    "application-procedure": "Online or offline application through designated authorities",
-    "documents-required": "Not applicable"
+    "application_procedure": "Online or offline application through designated authorities",
+    "documents_required": "Not applicable"
     }
     ,
     {
@@ -550,8 +550,8 @@
     "income": "Below a certain threshold"
     },
     "benefits": "Financial assistance for tuition fees, books, and other expenses related to higher education for differently-abled students, leading to increased education and employment opportunities",
-    "application-procedure": "Online or offline application through designated authorities",
-    "documents-required": "Proof of disability and income"
+    "application_procedure": "Online or offline application through designated authorities",
+    "documents_required": "Proof of disability and income"
     },
     {
     "title": "Pradhan Mantri Fasal Bima Yojana",
@@ -563,8 +563,8 @@
     "income": "Not applicable"
     },
     "benefits": "Insurance coverage and financial support to farmers in the event of crop failure or damage due to natural calamities, leading to increased financial security and reduced agricultural distress",
-    "application-procedure": "Online or offline application through designated authorities",
-    "documents-required": "Proof of ownership of land and crops"
+    "application_procedure": "Online or offline application through designated authorities",
+    "documents_required": "Proof of ownership of land and crops"
     },
     {
     "title": "NALSA Scheme for Legal Aid to the Poor",
@@ -576,8 +576,8 @@
     "income": "Below a certain threshold"
     },
     "benefits": "Free legal aid and assistance to the poor and marginalized sections of society in India, leading to increased access to justice and protection of rights",
-    "application-procedure": "Online or offline application through designated legal services authorities",
-    "documents-required": "Proof of income and residence"
+    "application_procedure": "Online or offline application through designated legal services authorities",
+    "documents_required": "Proof of income and residence"
     },
     {
     "title": "Grievance Redressal Mechanism for Central Government Employees",
@@ -589,8 +589,8 @@
     "income": "Not applicable"
     },
     "benefits": "A mechanism for central government employees to file and resolve grievances related to their employment, leading to improved working conditions and better employee satisfaction",
-    "application-procedure": "Online or offline application through designated authorities",
-    "documents-required": "Not applicable"
+    "application_procedure": "Online or offline application through designated authorities",
+    "documents_required": "Not applicable"
     },
     {
     "title": "NHRC Scheme for Protection of Human Rights Defenders",
@@ -602,8 +602,8 @@
     "income": "Not applicable"
     },
     "benefits": "Protection and support to human rights defenders in India who face threats and harassment due to their work, leading to increased safety and security for these individuals",
-    "application-procedure": "Online or offline application through designated authorities",
-    "documents-required": "Proof of identity and evidence of threat or harassment"
+    "application_procedure": "Online or offline application through designated authorities",
+    "documents_required": "Proof of identity and evidence of threat or harassment"
     },
     {
     "title": "POCSO Scheme for Victim Compensation",
@@ -615,8 +615,8 @@
     "income": "Not applicable"
     },
     "benefits": "Compensation and support to child victims of sexual offences in India, leading to improved access to justice and protection of rights",
-    "application-procedure": "Online or offline application through designated authorities",
-    "documents-required": "Proof of victimization and medical records"
+    "application_procedure": "Online or offline application through designated authorities",
+    "documents_required": "Proof of victimization and medical records"
     }
     ,
     {
@@ -629,8 +629,8 @@
     "income": "Not applicable"
     },
     "benefits": "Free legal aid and assistance to victims of acid attacks in India, leading to increased access to justice and protection of rights",
-    "application-procedure": "Online or offline application through designated legal services authorities",
-    "documents-required": "Medical records and proof of victimization"
+    "application_procedure": "Online or offline application through designated legal services authorities",
+    "documents_required": "Medical records and proof of victimization"
     },
     {
     "title": "CVC Scheme for Whistleblower Protection",
@@ -642,8 +642,8 @@
     "income": "Not applicable"
     },
     "benefits": "Protection and support to whistleblowers who report corruption and wrongdoing in public sector organizations in India, leading to improved transparency and accountability",
-    "application-procedure": "Online or offline application through designated authorities",
-    "documents-required": "Proof of identity and evidence of corruption or wrongdoing"
+    "application_procedure": "Online or offline application through designated authorities",
+    "documents_required": "Proof of identity and evidence of corruption or wrongdoing"
     },
     {
     "title": "Startup India Seed Fund Scheme",
@@ -655,8 +655,8 @@
     "income": "Not applicable"
     },
     "benefits": "Seed funding of up to INR 20 lakhs for eligible startups, leading to increased innovation and entrepreneurship in India",
-    "application-procedure": "Online application through designated portal",
-    "documents-required": "Business plan, proof of incorporation, and other relevant documents"
+    "application_procedure": "Online application through designated portal",
+    "documents_required": "Business plan, proof of incorporation, and other relevant documents"
     },
     {
     "title": "Pradhan Mantri Mudra Yojana (PMMY) Scheme",
@@ -668,8 +668,8 @@
     "income": "Not applicable"
     },
     "benefits": "Loans of up to INR 10 lakhs for eligible micro and small enterprises, leading to increased self-employment and job creation in India",
-    "application-procedure": "Online or offline application through designated banks or financial institutions",
-    "documents-required": "Business plan, proof of identity and address, and other relevant documents"
+    "application_procedure": "Online or offline application through designated banks or financial institutions",
+    "documents_required": "Business plan, proof of identity and address, and other relevant documents"
     },
     {
     "title": "Stand Up India Scheme",
@@ -681,8 +681,8 @@
     "income": "Not applicable"
     },
     "benefits": "Loans of up to INR 1 crore for eligible women and SC/ST entrepreneurs, leading to increased entrepreneurship and job creation in India",
-    "application-procedure": "Online or offline application through designated banks or financial institutions",
-    "documents-required": "Business plan, proof of identity and address, and other relevant documents"
+    "application_procedure": "Online or offline application through designated banks or financial institutions",
+    "documents_required": "Business plan, proof of identity and address, and other relevant documents"
     }
     ,
     {
@@ -695,8 +695,8 @@
     "income": "Not applicable"
     },
     "benefits": "Financial assistance and mentorship support for eligible startups, leading to increased innovation and entrepreneurship in India",
-    "application-procedure": "Online application through designated portal",
-    "documents-required": "Business plan, proof of identity and address, and other relevant documents"
+    "application_procedure": "Online application through designated portal",
+    "documents_required": "Business plan, proof of identity and address, and other relevant documents"
     }
     
     ,
@@ -710,8 +710,8 @@
     "income": "Not applicable"
     },
     "benefits": "Financial and technical support for eligible small businesses, leading to increased growth and competitiveness in India",
-    "application-procedure": "Online or offline application through designated NSIC offices",
-    "documents-required": "Business plan, proof of identity and address, and other relevant documents"
+    "application_procedure": "Online or offline application through designated NSIC offices",
+    "documents_required": "Business plan, proof of identity and address, and other relevant documents"
     },
     {
     "title": "Credit Guarantee Fund Trust for Micro and Small Enterprises (CGTMSE) Scheme",
@@ -723,8 +723,8 @@
     "income": "Not applicable"
     },
     "benefits": "Collateral-free credit of up to INR 2 crores for eligible micro and small enterprises, leading to increased self-employment and job creation in India",
-    "application-procedure": "Online or offline application through designated banks or financial institutions",
-    "documents-required": "Business plan, proof of identity and address, and other relevant documents"
+    "application_procedure": "Online or offline application through designated banks or financial institutions",
+    "documents_required": "Business plan, proof of identity and address, and other relevant documents"
     },
     {
     "title": "National Social Assistance Programme (NSAP) Scheme",
@@ -736,8 +736,8 @@
     "income": "Below the poverty line"
     },
     "benefits": "Financial assistance in the form of monthly pension, leading to improved living standards for eligible beneficiaries",
-    "application-procedure": "Online or offline application through designated authorities",
-    "documents-required": "Proof of age, income, and other relevant documents"
+    "application_procedure": "Online or offline application through designated authorities",
+    "documents_required": "Proof of age, income, and other relevant documents"
     },
     {
     "title": "Pradhan Mantri Vaya Vandana Yojana (PMVVY) Scheme",
@@ -749,8 +749,8 @@
     "income": "Not applicable"
     },
     "benefits": "Guaranteed pension income of up to INR 10,000 per month for eligible senior citizens, leading to financial security and stability",
-    "application-procedure": "Online or offline application through designated authorities",
-    "documents-required": "Proof of age, address, and other relevant documents"
+    "application_procedure": "Online or offline application through designated authorities",
+    "documents_required": "Proof of age, address, and other relevant documents"
     },
     
     {
@@ -763,8 +763,8 @@
     "income": "Not applicable"
     },
     "benefits": "Guaranteed pension income of up to INR 5,000 per month for eligible workers in the unorganized sector, leading to financial security and stability",
-    "application-procedure": "Online or offline application through designated authorities",
-    "documents-required": "Proof of age, address, and other relevant documents"
+    "application_procedure": "Online or offline application through designated authorities",
+    "documents_required": "Proof of age, address, and other relevant documents"
     }
     ,
     {
@@ -777,8 +777,8 @@
     "income": "Not applicable"
     },
     "benefits": "Flexible retirement income options for eligible individuals, with the option to choose investment strategy and pension fund manager",
-    "application-procedure": "Online or offline application through designated authorities",
-    "documents-required": "Proof of age, address, and other relevant documents"
+    "application_procedure": "Online or offline application through designated authorities",
+    "documents_required": "Proof of age, address, and other relevant documents"
     },
     {
     "title": "Pradhan Mantri Matru Vandana Yojana (PMMVY) Scheme",
@@ -790,8 +790,8 @@
     "income": "Below INR 1.5 lakh per annum"
     },
     "benefits": "Financial assistance of INR 5,000 in three installments for eligible pregnant and lactating mothers, leading to improved maternal and child health",
-    "application-procedure": "Online or offline application through designated authorities",
-    "documents-required": "Proof of age, address, and other relevant documents"
+    "application_procedure": "Online or offline application through designated authorities",
+    "documents_required": "Proof of age, address, and other relevant documents"
     },
     {
     "title": "Pradhan Mantri Kisan Maan-Dhan Yojana (PM-KMY) Scheme",
@@ -803,8 +803,8 @@
     "income": "Not applicable"
     },
     "benefits": "Guaranteed pension income of INR 3,000 per month for eligible small and marginal farmers, leading to financial security and stability",
-    "application-procedure": "Online or offline application through designated authorities",
-    "documents-required": "Proof of age, address, and other relevant documents"
+    "application_procedure": "Online or offline application through designated authorities",
+    "documents_required": "Proof of age, address, and other relevant documents"
     }
     ,
     {
@@ -817,8 +817,8 @@
     "income": "No specific income criteria"
     },
     "benefits": "Financial support to farmers in case of crop failure due to natural calamities, pests & diseases.",
-    "application-procedure": "Application can be done through the concerned state's Agriculture Department or through a Common Service Center (CSC) or online at the official PMFBY website.",
-    "documents-required": "Identity proof, land ownership proof, crop details"
+    "application_procedure": "Application can be done through the concerned state's Agriculture Department or through a Common Service Center (CSC) or online at the official PMFBY website.",
+    "documents_required": "Identity proof, land ownership proof, crop details"
     }
     ,
     {
@@ -831,8 +831,8 @@
     "income": "No specific income criteria"
     },
     "benefits": "Improvement in irrigation facilities, increase in crop yield and income of farmers.",
-    "application-procedure": "Application can be done through the concerned state's Agriculture Department.",
-    "documents-required": "Identity proof, land ownership proof, and other documents related to the project for which the farmer is applying for assistance."
+    "application_procedure": "Application can be done through the concerned state's Agriculture Department.",
+    "documents_required": "Identity proof, land ownership proof, and other documents related to the project for which the farmer is applying for assistance."
     }
     ,
     
@@ -847,8 +847,8 @@
     "income": "No specific income criteria"
     },
     "benefits": "Assistance in the form of training, financial support, and marketing assistance to farmers for adopting organic farming practices.",
-    "application-procedure": "Application can be done through the concerned state's Agriculture Department.",
-    "documents-required": "Identity proof, land ownership proof, and other documents related to organic farming certification and marketing assistance."
+    "application_procedure": "Application can be done through the concerned state's Agriculture Department.",
+    "documents_required": "Identity proof, land ownership proof, and other documents related to organic farming certification and marketing assistance."
     },
     {
     "title": "Pradhan Mantri Gram Sadak Yojana",
@@ -860,8 +860,8 @@
     "income": "No specific income criteria"
     },
     "benefits": "Improvement in rural connectivity, reduction in travel time and cost, increase in economic activities, and social development.",
-    "application-procedure": "Application can be done through the concerned state's Rural Development Department.",
-    "documents-required": "Proof of residence, land ownership proof, and other documents related to the project for which the applicant is applying for assistance."
+    "application_procedure": "Application can be done through the concerned state's Rural Development Department.",
+    "documents_required": "Proof of residence, land ownership proof, and other documents related to the project for which the applicant is applying for assistance."
     },
     {
     "title": "Swachh Bharat Abhiyan",
@@ -873,8 +873,8 @@
     "income": "No specific income criteria"
     },
     "benefits": "Improvement in public health, cleanliness and hygiene, and environmental conservation.",
-    "application-procedure": "Citizens can participate in the program voluntarily, and local authorities can apply for funding and support.",
-    "documents-required": "No specific documents required for participation, but local authorities may need to provide project details and financial estimates for funding support."
+    "application_procedure": "Citizens can participate in the program voluntarily, and local authorities can apply for funding and support.",
+    "documents_required": "No specific documents required for participation, but local authorities may need to provide project details and financial estimates for funding support."
     },
     {
     "title": "Pradhan Mantri Fasal Bima Yojana",
@@ -886,8 +886,8 @@
     "income": "Farmers with insurable interest in the crop"
     },
     "benefits": "Financial assistance and insurance coverage to farmers for crop loss or damage.",
-    "application-procedure": "Farmers can apply for the scheme through their respective State Agricultural Departments or through designated insurance companies.",
-    "documents-required": "Documents related to the crop and its cultivation, proof of land ownership or tenancy, and other relevant documents as required by the respective State Agricultural Department."
+    "application_procedure": "Farmers can apply for the scheme through their respective State Agricultural Departments or through designated insurance companies.",
+    "documents_required": "Documents related to the crop and its cultivation, proof of land ownership or tenancy, and other relevant documents as required by the respective State Agricultural Department."
     }
     
     ,{
@@ -900,8 +900,8 @@
     "income": "No specific income criteria"
     },
     "benefits": "Improved irrigation facilities, increased crop productivity, and promotion of sustainable agriculture practices.",
-    "application-procedure": "Application can be done through the concerned state's Agriculture Department.",
-    "documents-required": "Proof of land ownership or tenancy, and other relevant documents as required by the respective State Agriculture Department."
+    "application_procedure": "Application can be done through the concerned state's Agriculture Department.",
+    "documents_required": "Proof of land ownership or tenancy, and other relevant documents as required by the respective State Agriculture Department."
     }
 ]
     

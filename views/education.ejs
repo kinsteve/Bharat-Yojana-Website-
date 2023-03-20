@@ -60,18 +60,33 @@
 		<div id="main">
 			<div class="inner">
 				<h1>Education</h1>
-				<span class="image main"><img src="images/1.jpg" alt="" style="height:350px"></span>
-
-
-
-
+				<span class="image main"><img src="images/1.jpg" alt="" style="width: 100%;"></span>
+                <h2>Available schemes</h2>
 			</div>
-
-
 		</div>
-		<button onclick="myFunction()" style="margin-left:40px">BETI BACHAO BETI PADHAO YOJANA</button><br><br><br>
+		<div class="schemeContainer" style="width:75%;margin:auto;"> 
+			<%education.map((s)=>{%>
+				<h3 style="text-decoration: underline; color: red;"><%=s.title%></h3>
+                <h3>Objective</h3>
+				<p><%=s.objective%></p>
+				<h3>Eligibility Criteria</h3>
+				<ol>
+					<li>Age: <%=s.eligibility.age%></li>
+					<li>Gender: <%=s.eligibility.gender%></li>
+					<li>Income: <%=s.eligibility.income%></li>
+				</ol>
+				<h3>Benefits:</h3>
+				<p><%=s.benefits%></p>
+				<h3>Application Procedure:</h3>
+				<p><%=s.application_procedure%></p>
+				<h3>Documents Required:</h3>
+				<p><%=s.documents_required%></p>
+				<br>
+				<hr style="font-size: large;">
+			<%})%>
+		</div>
+		<!-- <button onclick="myFunction()" style="margin-left:40px">BETI BACHAO BETI PADHAO YOJANA</button><br><br><br>
 		<div style="margin-left:40px; display:none;" id="Mydiv">
-
 
 			CENTRAL GOVERNMENT<br><br>
 
@@ -239,7 +254,7 @@
 		</div>
 	</footer>
 
-	</div>
+	</div> -->
 
 	<!-- Scripts -->
 	<script>
