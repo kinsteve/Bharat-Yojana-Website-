@@ -102,6 +102,10 @@ app.get("/rural" ,(req,res)=>{
     res.render("generic.ejs");
 });
 
+app.get("/search",(req,res)=>{
+    res.render("search.ejs");
+})
+
 const serviceAccount = require('./hackathon-c3b03-firebase-adminsdk-vxv9h-c3285e1205.json');
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
