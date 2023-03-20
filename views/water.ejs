@@ -66,68 +66,29 @@
 
 
 					</div>
-					<button onclick="myFunction()" style="margin-left:40px">NATIONAL WATER MISSION:</button><br><br><br>
-					<div style="margin-left:40px; display:none;" id="Mydiv">
+					
 
-
-                          The Government of India has established National Water Mission as one of the eight National Missions under the National Action Plan on Climate Change. <br>The Union Cabinet approved (on 6th April, 2011) the comprehensive Mission Document for National Water Mission (NWM). <br> The main objective of NWM is “conservation of water, minimizing wastage and ensuring its more equitable distribution both across and within States through integrated water resources development and management”.<br><br> NWM has identified five goals as under:-<br><br>
-1.   Comprehensive water data base in public domain and assessment of the impact of climate change on water resource,<br>
-2.    Promotion of citizen and state actions for water conservation, augmentation and preservation,<br>
-3.   Focused attention to vulnerable areas including over-exploited areas,<br>
-4.   Increasing water use efficiency by 20%, and<br>
-5.   Promotion of basin level integrated water resources management.<br>
-Various strategies for achieving the goals have been identified which lead to integrated planning for sustainable development with active participation of the stakeholders.<br> In pursuance to the approval accorded by the Union Cabinet to the National Water Mission, a Mission Directorate was established in the Ministry of Water Resources, River Development & Ganga Rejuvenation.<br> Eight Advisory Groups/Committees as envisaged in the NWM Mission document have been constituted.<br>
-“Implementation of National Water Mission (NWM)” Central Scheme of the Ministry of Water Resources with total financial outlay of Rs.196 crore (Rs. one hundred ninety six crore only) for the XII Plan period i.e upto March, 2017 has been approved by the Ministry of Finance vide MoWR office order No. 06/12/2012-NWM dated 27.11.2013.<br><br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-							</div>
-
-
-
-
-
-
-
-</div>
-					<button onclick="myFunction1()" style="margin-left:40px">JAL KRANTI ABHIYAN</button><br><br><br>
-					<div style="margin-left:40px; display:none;" id="Mydiv1">
-					The government is making active efforts to revolutionise villages and cities through block level water conservation schemes in the coming years.<br><br> For example; the Jal Gram Scheme under the Jal Kranti Abhiyan is aimed at developing two model villages in water starved areas to lead the other villages towards water conservation and preservation.<br>
-	                        <span class="image main"><img src="images/WATER.JPG" alt="" style="height:350px"></span>
-
-
-
-
-
-
-
-							</div>
-
-
-
-
-
-
-</div>
-
-
+					<div class="schemeContainer" style="width:75%;margin:auto;"> 
+						<%water.map((s)=>{%>
+							<h3 style="text-decoration: underline; color: red;"><%=s.title%></h3>
+							<h3>Objective</h3>
+							<p><%=s.objective%></p>
+							<h3>Eligibility Criteria</h3>
+							<ol>
+								<li>Age: <%=s.eligibility.age%></li>
+								<li>Gender: <%=s.eligibility.gender%></li>
+								<li>Income: <%=s.eligibility.income%></li>
+							</ol>
+							<h3>Benefits:</h3>
+							<p><%=s.benefits%></p>
+							<h3>Application Procedure:</h3>
+							<p><%=s.application_procedure%></p>
+							<h3>Documents Required:</h3>
+							<p><%=s.documents_required%></p>
+							<br>
+							<hr style="font-size: large;">
+						<%})%>
+					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
