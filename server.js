@@ -16,6 +16,7 @@ admin.initializeApp({
     databaseURL: 'https://hackathon-c3b03-default-rtdb.firebaseio.com',
 
 });
+const auth = firebase.auth();
 // app.use(express.json());
 
 // Set the view engine
@@ -89,6 +90,22 @@ app.post("/signup", (req, res) => {
             res.status(500).send('An error occurred');
         });
 });
+
+app.post('/login',(req, res) => {
+    const {email,password}=req.body;
+    firebase.auth().signInWithEmailAndPassword(email.value, password.value)
+    .then((userCredential) => {
+      // Logged in successfully
+      var user = userCredential.user;
+      console.log("User " + user.uid + " logged in successfully.");
+    })
+    .catch((error) => {
+      // Error handling
+      var errorCode = error.code;
+      var errorMessage = error.message;
+      console.error("Error: " + errorMessage);
+    });
+  });
 
 app.get("/education", (req, res) => {
     res.render("education.ejs");
