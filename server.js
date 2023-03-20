@@ -16,7 +16,6 @@ admin.initializeApp({
     databaseURL: 'https://hackathon-c3b03-default-rtdb.firebaseio.com',
 
 });
-const auth = firebase.auth();
 // app.use(express.json());
 const arr = require("./views/data.json");
 const education = arr.filter(ele => ele.category==='education');
@@ -31,7 +30,7 @@ const pension = arr.filter(ele => ele.category==='pension');
 const agriculture = arr.filter(ele => ele.category==='agriculture');
 const rural = arr.filter(ele => ele.category==='rural');
 const law = arr.filter(ele => ele.category==='law');
-// const education = arr.filter(ele => ele.category==='education');
+
 
 
 // Set the view engine
@@ -41,16 +40,6 @@ app.set('views', __dirname + '/views');   //for deployment
 app.use(express.static(__dirname + "/public/"));    // add this to make sure public folder is read on deployment
 
 const PORT = process.env.PORT || 3000;
-
-
-app.get("/",(req,res)=>{
-    console.log(agriculture);   
-    res.render("index.ejs");
-    
-})
-app.post("/" , (req,res)=>{
-   res.render("index.ejs");
-
 
 app.get("/", (req, res) => {
     // alert("Hello Its popup");
@@ -70,7 +59,6 @@ app.get("/", (req, res) => {
 })
 app.post("/", (req, res) => {
     res.render("index.ejs");
-
 });
 
 app.get("/login", (req, res) => {
@@ -81,15 +69,8 @@ app.get("/signup", (req, res) => {
     res.render("signup.ejs");
 });
 
-
-
-app.post("/signup", (req,res)=>{
-    console.log(req);
-    const { name, password,confirmpassword, phoneno, aadharno, gender, age, state, income } = req.body;
-    console.log("HI my name is " , name);
 app.post("/signup", (req, res) => {
     const { name, password, confirmpassword, phoneno, aadharno, gender, age, state, income } = req.body;
-
     if (password !== confirmpassword) {
         return res.status(400).send('Passwords do not match');
     }
@@ -112,42 +93,22 @@ app.post("/signup", (req, res) => {
             return admin.database().ref(`users/${userRecord.uid}`).set(userData);
         })
 
-<<<<<<< HEAD
-      .then(() => {
-        res.status(200).send("User Registered");
-      })
-      .catch((error) => {
-        console.error(error);
-        res.status(500).send('An error occurred');
-      });
-    });
-    
-// app.get("/education" ,(req,res)=>{
-//     res.render("education.ejs");
-// });
+        .then(() => {
+            console.log("User Registered");
+            // console.log(userData);
+            res.redirect('/');
+        })
 
-
-app.post('/login',(req, res) => {
-    const {email,password}=req.body;
-    firebase.auth().signInWithEmailAndPassword(email.value, password.value)
-    .then((userCredential) => {
-      // Logged in successfully
-      var user = userCredential.user;
-      console.log("User " + user.uid + " logged in successfully.");
-    })
-    .catch((error) => {
-      // Error handling
-      var errorCode = error.code;
-      var errorMessage = error.message;
-      console.error("Error: " + errorMessage);
-    });
-  });
+        .catch((error) => {
+            console.error(error);
+            res.status(500).send('An error occurred');
+        });
+});
 
 app.get("/education", (req, res) => {
-    res.render("education.ejs");
+    res.render("education.ejs" , {education: education});
 });
 app.get("/electricity", (req, res) => {
-
     res.render("electricity.ejs");
 });
 app.get("/health", (req, res) => {
@@ -179,9 +140,6 @@ app.get("/agriculture", (req, res) => {
 });
 app.get("/rural", (req, res) => {
     res.render("generic.ejs");
-});
-app.get("/education", (req, res) => {
-    res.render("education.ejs", { education: education });
 });
 
 app.listen(PORT, console.log(`Server running on port ${PORT}`.yellow.bold));
