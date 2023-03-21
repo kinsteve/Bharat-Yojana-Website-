@@ -8,6 +8,7 @@ const firebase = require('firebase/app');
 require('firebase/auth');
 require('firebase/firestore');
 
+
 const serviceAccount = require('./hackathon-c3b03-firebase-adminsdk-vxv9h-c3285e1205.json');
 //console.log(serviceAccount);
 const firebaseConfig = {
@@ -30,15 +31,17 @@ const firebaseConfig = {
   app.use(bodyParser.urlencoded({ extended: true }));
   
   const PORT = process.env.PORT || 3000;
-  
-  
-  // app.use(express.json());
-  const arr = require("./views/data.json");
-  const education = arr.filter(ele => ele.category==='education');
-  const health = arr.filter(ele => ele.category==='health');
-  const electricity = arr.filter(ele => ele.category==='electricity');
-  const water = arr.filter(ele => ele.category==='water');
-  const money = arr.filter(ele => ele.category==='money');
+
+
+// app.use(express.json());
+const arr = require("./views/data.json");
+const education = arr.filter(ele => ele.category==='education');
+const health = arr.filter(ele => ele.category==='health');
+const electricity = arr.filter(ele => ele.category==='electricity');
+const buisness = arr.filter(ele => ele.category==='buisness');
+const water = arr.filter(ele => ele.category==='water');
+const money = arr.filter(ele => ele.category==='money');
+
 const jobs = arr.filter(ele => ele.category==='jobs');
 const justice = arr.filter(ele => ele.category==='justice');
 const entrepreneurship = arr.filter(ele => ele.category==='entrepreneurship');
@@ -164,37 +167,52 @@ app.get("/education", (req, res) => {
     res.render("education.ejs" , {education: education});
 });
 app.get("/electricity", (req, res) => {
-    res.render("electricity.ejs");
+    res.render("electricity.ejs",{electricity:electricity});
 });
 app.get("/health", (req, res) => {
-    res.render("health.ejs");
+    res.render("health.ejs",{health:health});
 });
 app.get("/water", (req, res) => {
-    res.render("water.ejs");
+    res.render("water.ejs",{water:water});
 });
 app.get("/money", (req, res) => {
-    res.render("money.ejs");
+    res.render("money.ejs",{money:money});
 });
 app.get("/jobs", (req, res) => {
-    res.render("generic.ejs");
+    res.render("jobs.ejs",{jobs:jobs});
 });
 app.get("/justice", (req, res) => {
-    res.render("generic.ejs");
+    res.render("justice.ejs",{justice:justice});
 });
 app.get("/law", (req, res) => {
-    res.render("generic.ejs");
+    res.render("law.ejs",{law:law});
 });
 app.get("/buisness", (req, res) => {
-    res.render("generic.ejs");
+    res.render("buisness.ejs",{buisness:buisness});
 });
 app.get("/pension", (req, res) => {
-    res.render("generic.ejs");
+    res.render("pension.ejs",{pension:pension});
+});
+app.get("/agriculture", (req, res) => {
+    res.render("agriculture.ejs",{agriculture:agriculture});
 });
 app.get("/agriculture", (req, res) => {
     res.render("generic.ejs");
 });
 app.get("/rural", (req, res) => {
-    res.render("generic.ejs");
+    res.render("rural.ejs",{rural:rural});
 });
+
+
+app.get("/search",(req,res)=>{
+    res.render("search.ejs");
+})
+
+// const serviceAccount = require('./hackathon-c3b03-firebase-adminsdk-vxv9h-c3285e1205.json');
+// admin.initializeApp({
+//   credential: admin.credential.cert(serviceAccount),
+//   databaseURL: 'https://hackathon-c3b03-default-rtdb.firebaseio.com',
+
+// });
 
 app.listen(PORT, console.log(`Server running on port ${PORT}`.yellow.bold));

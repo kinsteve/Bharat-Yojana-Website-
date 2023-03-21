@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	 </head>
+	 
 	  <body class="is-preload">
 
 		<!-- Wrapper -->
@@ -42,11 +43,72 @@
 					<div id="main">
 						<div class="inner">
 								<h1>Search for schemes</h1>
-                <form action="search.php" method="post">
-                  <input type="text" name="search" id="searchbar" placeholder="Type a keyword or the name of the scheme."><br>
-                  <input type="submit" name="submit" value="Submit">
-                </form>
 
+
+							
+                
+								<input type="text" id="input" oninput="showSuggestions()" placeholder="Type here...">
+								<ul id="suggestions"></ul>
+								
+								<style>
+								  #suggestions {
+									list-style: none;
+									padding: 0;
+									margin: 0;
+									position: absolute;
+									z-index: 1;
+									background-color: #fff;
+									border: 1px solid #ccc;
+									width: 100%;
+								  }
+								
+								  #suggestions li {
+									padding: 8px 12px;
+									cursor: pointer;
+								  }
+								
+								  #suggestions li:hover {
+									background-color: #f1f1f1;
+								  }
+								</style>
+								
+								<script>
+								  const options = [
+									'Beti Bachao Beti Padhao',
+									'National Means-cum-Merit Scholarship',
+									'Pradhan Mantri Vidya Lakshmi Yojana',
+									'Sarva Shiksha Abhiyan'
+									// Add more options as needed
+								  ];
+								
+								  function showSuggestions() {
+									const input = document.getElementById('input');
+									const suggestions = document.getElementById('suggestions');
+								
+									const filter = input.value.toLowerCase();
+								
+									// Remove previous suggestions
+									while (suggestions.firstChild) {
+									  suggestions.removeChild(suggestions.firstChild);
+									}
+								
+									// Show suggestions that match user input
+									const filteredOptions = options.filter((option) =>
+									  option.toLowerCase().includes(filter)
+									);
+								
+									filteredOptions.forEach((option) => {
+									  const li = document.createElement('li');
+									  li.textContent = option;
+									  li.onclick = () => {
+										input.value = option;
+										suggestions.innerHTML = '';
+									  };
+									  suggestions.appendChild(li);
+									});
+								  }
+								</script>
+								
 
 
 				<!-- Footer -->

@@ -66,75 +66,29 @@
 
 
 					</div>
-					<button onclick="myFunction()" style="margin-left:40px">LIFE INSURANCE TAX SAVING INVESTMENTS </button><br><br><br>
-					<div style="margin-left:40px; display:none;" id="Mydiv">
 
 
-                          	Life Insurance Tax Saving Investments Life Insurance is not a pure form of tax saving investments, yet somehow owing to its dual edged benefits; it makes it to the top of our list.<br>
- It gets you a life cover that acts as a financial cushion in case of a contingency.<br>
- Moreover, under section 80C of Income Tax Act, the premium you pay on a life insurance plan is deductible from your total income, thus lowering your taxable fraction.<br>
-The upper limit for this deduction is Rs 1 Lakh.<br>
-Even the more evolved forms of life insurance save the tax for the investor under different sections.<br>
- The premiums paid for ULIPs (Unit Linked Insurance Plans) are exempted from taxes under section 80C. <br>
-      But this is not all, under section 10(10D), the lump sum that is paid to the beneficiary in case of an eventuality is not taxable.<br>
- If it's a pension plan, the 1/3rd maturity amount paid out as lump sum is not taxable.<br>
- Though, the rest 2/3rd fraction paid out as annuity is taxable.<br><br>
- There are several life insurance plans available in the market, namely: <br><br>
-•	Term Plans<br>
-•	Endowment Plans <br>
-•	Unit Linked Insurance Plans or ULIPs<br>
-•	Money Back Plans<br><br>
-
-
-
-
-
-
-
-							</div>
-
-
-
-
-
-
-
-</div>
-					<button onclick="myFunction1()" style="margin-left:40px">HEALTH INSUERANCE TAX SAVING INVESTMENTS </button><br><br><br>
-					<div style="margin-left:40px; display:none;" id="Mydiv1">
-						Some of you might not agree with a health insurance plan being counted as a tax saving investments option, as it offers no perky returns like the other forms of investment. <br>But, might we mention, the value you get from health insurance coverage Health Insurance Tax Saving Investments makes it much more worth than any other form of investment.<br> As per section 80D, you get to enjoy a tax deduction on the premium that you pay for the health insurance plan.<br> The upper cap for this deduction is Rs 15,000 and is extendible up to Rs 20,000 for senior citizens.<br> So, if a person gets a health plan for himself and for his parents, he can enjoy a deduction of up to Rs 35,000 on his taxable income.<br> However, section 80D is not applicable to the group health insurance given by your employer. <br>If you have opted for a personal accident rider with your health plan, the lump sum paid, in case the insured suffers a disability, is not taxable.<br><br>
-
-
-
-
-
-
-
-
-
-
-
-							</div>
-
-
-
-
-
-
-</div>
-					<button onclick="myFunction2()" style="margin-left:40px">EQUITY LINKED SAVING SCHEME (ELSS) MUTUAL FUNDS </button><br><br><br>
-					<div style="margin-left:40px; display:none;" id="Mydiv2">
-
-
-	      ELSS Mutual Funds Tax Saving Investments Equity Linked Saving Scheme (ELSS) Mutual Funds are specially designed for tax saving purposes and are considered one of the most sought after tax saving investments options.<br> Being market linked product they are a high risk products but also offers the potential of high returns.<br> We have already counted it above among the investments that save taxes under section 80C.<br> There are two reasons why it makes to our list with flying marks.<br> It is one of the two tax saving investments options that are equity based (the other one is ULIP) It boasts of the shortest lock in period (3 years) among its class of investments There's one more perk that ELSS offers. The investment in an ELSS can also be made through a SIP (Systematic Investment Plan) wherein you get to spend a small fixed fraction every month instead of paying a heavier sum altogether. Thus, an ELSS invested through a SIP makes the overall investment easy and affordable.<br> A SIP multiplies the money better than other forms of investment through effect of averaging and the power of compounding.<br><br>
-
-
-
-
-
-							</div>
-
-
+					<div class="schemeContainer" style="width:75%;margin:auto;"> 
+						<%money.map((s)=>{%>
+							<h3 style="text-decoration: underline; color: red;"><%=s.title%></h3>
+							<h3>Objective</h3>
+							<p><%=s.objective%></p>
+							<h3>Eligibility Criteria</h3>
+							<ol>
+								<li>Age: <%=s.eligibility.age%></li>
+								<li>Gender: <%=s.eligibility.gender%></li>
+								<li>Income: <%=s.eligibility.income%></li>
+							</ol>
+							<h3>Benefits:</h3>
+							<p><%=s.benefits%></p>
+							<h3>Application Procedure:</h3>
+							<p><%=s.application_procedure%></p>
+							<h3>Documents Required:</h3>
+							<p><%=s.documents_required%></p>
+							<br>
+							<hr style="font-size: large;">
+						<%})%>
+					</div>
 
 
 
