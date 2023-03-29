@@ -1,0 +1,111 @@
+[
+    {
+       "title": "National Rural Health Mission",
+       "objective": "To provide accessible, affordable and quality healthcare to the rural population of India",
+       "category": "health", 
+       "eligibility": {
+       "age": "-1",
+       "gender": "All",
+       "income": "-1"
+       },
+       "benefits": "Improved healthcare services in rural areas, provision for community participation and empowerment, and promotion of preventive and promotive healthcare practices",
+       "application-procedure": "Automatic enrolment for families identified under the Socio-Economic Caste Census (SECC) database or registration through Common Service Centres (CSCs) or Ayushman Bharat - Health and Wellness Centres (AB-HWCs)",
+       "documents-required": "Identification documents such as Aadhaar card and ration card, and other documents as required for verification of eligibility"
+       },
+       {
+       "title": "National Mental Health Programme",
+       "objective": "To provide accessible, affordable and quality mental healthcare services to the population of India",
+       "category": "health", 
+       "eligibility": {
+       "age": "-1",
+       "gender": "All",
+       "income": "-1"
+       },
+       "benefits": "Improved mental healthcare services, reduction in stigma associated with mental health issues, and promotion of mental wellness",
+       "application-procedure": "Registration and consultation at mental health clinics and hospitals, and participation in mental health awareness and education programmes",
+       "documents-required": "Identification documents such as Aadhaar card and other documents as required for verification of eligibility"
+       },
+   
+       {
+       "title": "Pradhan Mantri Matru Vandana Yojana",
+       "objective": "To provide financial assistance to pregnant and lactating women for their health and nutrition needs",
+       "category": "health" ,
+       "eligibility": {
+       "age": "+19",
+       "gender": "Female",
+       "income": "-150000"
+       },
+       "benefits": "Cash incentive of Rs. 5,000 in three instalments for pregnant and lactating women to meet their health and nutrition needs",
+       "application-procedure": "Registration at the nearest anganwadi centre or approved health facility",
+       "documents-required": "Identification documents such as Aadhaar card, bank account details, and pregnancy certificate from a registered medical practitioner"
+       },
+       
+       {
+       "title": "Pradhan Mantri Sahaj Bijli Har Ghar Yojana (Saubhagya)",
+       "objective": "To provide electricity access to all households in India, including those in remote and difficult areas.",
+       "category": "electricity",
+       "eligibility": {
+       "age": "-1",
+       "gender": "All",
+       "income": "-10000"
+       },
+       "benefits": "Free electricity connection to all households",
+       "application-procedure": "Online or offline registration through the designated authorities",
+       "documents-required": "Proof of identity and residence"
+       },
+       
+       
+       {
+       "title": "Deen Dayal Upadhyaya Gram Jyoti Yojana (DDUGJY)",
+       "objective": "To provide uninterrupted electricity supply to rural households, agricultural consumers, and rural industries.",
+       "category": "electricity",
+       "eligibility": {
+       "age": "-1",
+       "gender": "All",
+       "income": "-10000"
+       },
+       "benefits": "Electricity supply to all rural households, agricultural consumers, and rural industries",
+       "application-procedure": "Online or offline registration through the designated authorities",
+       "documents-required": "Proof of identity and residence"
+       },
+       {
+       "title": "Ujwal DISCOM Assurance Yojana (UDAY)",
+       "objective": "To improve the financial and operational performance of state-owned electricity distribution companies (DISCOMs).",
+       "category": "electricity",
+       "eligibility": {
+       "age": "-1",
+       "gender": "All",
+       "income": "-1"
+       },
+       "benefits": "Financial and operational improvement of DISCOMs, leading to better electricity supply to consumers",
+       "application-procedure": "State government participation through signing of MoU with the Ministry of Power",
+       "documents-required": "Not applicable"
+       },
+       {
+       "title": "Atal Distribution System Improvement Yojana (ADITYA)",
+       "objective": "To upgrade the power distribution system and reduce losses in urban areas.",
+       "category": "electricity",
+       "eligibility": {
+       "age": "-1",
+       "gender": "All",
+       "income": "-1"
+       },
+       "benefits": "Improved power distribution system in urban areas, resulting in better electricity supply to consumers",
+       "application-procedure": "State government participation through signing of MoU with the Ministry of Power",
+       "documents-required": "Not applicable"
+       },
+       {
+       "title": "Saubhagya Pradhan Mantri Sahaj Bijli Har Ghar Yojana (Saubhagya) Solar",
+       "objective": "To provide solar electricity access to all households in remote and difficult areas where grid connectivity is not feasible.",
+       "category": "electricity",
+       "eligibility": {
+       "age": "-1",
+       "gender": "All",
+       "income": "-10000"
+       },
+       "benefits": "Free solar electricity connection to all households in remote and difficult areas",
+       "application-procedure": "Online or offline registration through the designated authorities",
+       "documents-required": "Proof of identity and residence"
+       }
+   ]
+   

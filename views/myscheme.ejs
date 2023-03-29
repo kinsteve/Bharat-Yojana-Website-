@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+      <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      #myDIV {
+        width: 100%;
+        padding: 50px 0;
+        text-align: center;
+        background-color: lightblue;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <div class="inner">
+          <!-- Logo -->
+          <a href="index.ejs" class="logo"> </a>
+
+          <!-- Nav -->
+          <nav>
+            <ul>
+              <li><a href="#menu">Menu</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Menu -->
+      <nav id="menu">
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="index.ejs">Government Schemes</a></li>
+          <li><a href="generic.php">Digital Locker</a></li>
+          <li><a href="search.html">Search Scheme</a></li>
+          <li><a href="forum.php">Forum/Grievances</a></li>
+        </ul>
+      </nav>
+
+      <!-- Main -->
+      <div id="main">
+        <div class="inner">
+          <h1>Education</h1>
+          <span class="image main"
+            ><img src="images/1.jpg" alt="" style="width: 100%"
+          /></span>
+          <h2>My Schemes</h2>
+        </div>
+      </div>
+      <div class="schemeContainer" style="width: 75%; margin: auto">
+        <%filteredSchemes.map((s)=>{%>
+        <h3 style="text-decoration: underline; color: red"><%=s.title%></h3>
+        <h3>Objective</h3>
+        <p><%=s.objective%></p>
+        <h3>Eligibility Criteria</h3>
+        <ol>
+          <li>Age: <%=s.eligibility.age%></li>
+          <li>Gender: <%=s.eligibility.gender%></li>
+          <li>Income: <%=s.eligibility.income%></li>
+        </ol>
+        <h3>Benefits:</h3>
+        <p><%=s.benefits%></p>
+        <h3>Application Procedure:</h3>
+        <p><%=s.application_procedure%></p>
+        <h3>Documents Required:</h3>
+        <p><%=s.documents_required%></p>
+        <br />
+        <hr style="font-size: large" />
+        <%})%>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="inner">
+          <section>
+            <h2>Get in touch</h2>
+            <form method="post" action="#">
+              <div class="fields">
+                <div class="field half">
+                  <input type="text" name="name" id="name" placeholder="Name" />
+                </div>
+                <div class="field half">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="field">
+                  <textarea
+                    name="message"
+                    id="message"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+              </div>
+              <ul class="actions">
+                <li><input type="submit" value="Send" class="primary" /></li>
+              </ul>
+            </form>
+          </section>
+          <section>
+            <h2>Follow</h2>
+            <ul class="icons">
+              <li>
+                <a href="#" class="icon style2 fa-twitter"
+                  ><span class="label">Twitter</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon style2 fa-facebook"
+                  ><span class="label">Facebook</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon style2 fa-instagram"
+                  ><span class="label">Instagram</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon style2 fa-dribbble"
+                  ><span class="label">Dribbble</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon style2 fa-github"
+                  ><span class="label">GitHub</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon style2 fa-500px"
+                  ><span class="label">500px</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon style2 fa-phone"
+                  ><span class="label">Phone</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon style2 fa-envelope-o"
+                  ><span class="label">Email</span></a
+                >
+              </li>
+            </ul>
+          </section>
+          <ul class="copyright">
+            <li>&copy; Untitled. All rights reserved</li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    -->
+
+    <!-- Scripts -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("Mydiv");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
+
+    <script>
+      function myFunction1() {
+        var y = document.getElementById("Mydiv1");
+        if (y.style.display === "none") {
+          y.style.display = "block";
+        } else {
+          y.style.display = "none";
+        }
+      }
+    </script>
+    <script>
+      function myFunction2() {
+        var z = document.getElementById("Mydiv2");
+        if (z.style.display === "none") {
+          z.style.display = "block";
+        } else {
+          z.style.display = "none";
+        }
+      }
+    </script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
